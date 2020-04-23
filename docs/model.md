@@ -1,0 +1,41 @@
+## Design
+
+- RepositoryScan
+-    Dashboard
+-        Link to Github
+-        Link issues line <=> Github
+-    Status (GET /)
+-        List all Scans ?
+-        Known issues
+-        Unadressed issue
+-    Commits
+-        Unknown
+-        Known
+-        Scanned
+-        Unscanned
+-    Job
+-        Status
+-            Pending
+-            Working
+-            Done
+-            Error
+-        Commits
+-    Request
+-        Url (full)
+-        Commits (partial)
+-    Issues
+-        Status
+-            New
+-            Known
+-            Ignored
+-        Assigned ?
+- ScanQueue
+-    Repository
+-    Commits
+
+- CommitScan (Dashboard GET /)
+- CommitScanStatus (GET /)
+- CommitScanRequest (POST by User / Push / hook)
+- CommitScan Job
+
+- RepositoryScan 
